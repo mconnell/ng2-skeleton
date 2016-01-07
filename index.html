@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Skeleton</title>
+
+    <!-- 1. Load libraries -->
+    <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+    <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        packages: {
+          'dist': {
+            'defaultExtension': 'js',
+            'format': 'register',
+            'main': 'boot'
+          }
+        }
+      });
+      System.import('dist')
+        .then(null, console.error.bind(console));
+    </script>
+    <link rel="stylesheet" type="text/css" href="static/stylesheets/skeleton.css">
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+    <skeleton>Loading...</skeleton>
+  </body>
+</html>

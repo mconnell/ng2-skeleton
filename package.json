@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "tsc": "tsc",
-    "tsc:w": "tsc -w",
+    "compile": "tsc --project app --outDir dist -w",
     "lite": "lite-server",
-    "go": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+    "server": "concurrent \"npm run compile\" \"npm run lite\" "
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "angular2": "2.0.0-beta.0",
     "systemjs": "0.19.6",
