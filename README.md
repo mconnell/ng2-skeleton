@@ -13,6 +13,24 @@ This pulls down TypeScript, Angular2, and other dependencies we need.
 ```bash
   npm run start
 ```
+## General Structure
+
+```text
+  ng2-skeleton
+  |-- app
+  |   |-- components
+  |        |-- app.component.ts
+  |
+  |-- spec
+  |   |-- components
+  |        |-- app.component.spec.ts
+  |
+  |-- static
+  |   |-- stylesheets
+  |        |-- skeleton.css
+  |
+  |-- index.html
+```
 
 This command will run the TypeScript compiler on watch mode. And it will also start up a webserver
 [Locally](http://localhost:3000)
