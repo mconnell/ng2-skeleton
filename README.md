@@ -15,4 +15,9 @@ This pulls down TypeScript, Angular2, and other dependencies we need.
 ```
 
 This command will run the TypeScript compiler on watch mode. And it will also start up a webserver
-on http://localhost:3000
+[Locally](http://localhost:3000)
+
+## Testing
+
+The tests are found locally at [/jasmine.html](http://localhost:3000/jasmine). To add a new test create
+a TypeScript file within `/spec` and link to the compiled file within `jasmine.html`

@@ -12,14 +12,14 @@
     <script>
       System.config({
         packages: {
-          'dist': {
+          'dist/app': {
             'defaultExtension': 'js',
             'format': 'register',
             'main': 'boot'
           }
         }
       });
-      System.import('dist')
+      System.import('dist/app')
         .then(null, console.error.bind(console));
     </script>
     <link rel="stylesheet" type="text/css" href="static/stylesheets/skeleton.css">
