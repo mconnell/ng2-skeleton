@@ -11,7 +11,7 @@ To get started, `cd` into the project directory and run:
 This pulls down TypeScript, Angular2, and other dependencies we need.
 
 ```bash
-  npm run server
+  npm run start
 ```
 
 This command will run the TypeScript compiler on watch mode. And it will also start up a webserver

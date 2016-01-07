@@ -5,7 +5,7 @@
     "tsc": "tsc",
     "compile": "tsc --project app --outDir dist -w",
     "lite": "lite-server",
-    "server": "concurrent \"npm run compile\" \"npm run lite\" "
+    "start": "concurrent \"npm run compile\" \"npm run lite\" "
   },
   "license": "MIT",
   "dependencies": {
